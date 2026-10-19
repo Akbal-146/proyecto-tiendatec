@@ -1,0 +1,42 @@
+[
+{
+"id":1,
+"nombre": "mouse",
+"categoria": "periferico",
+"precio": 29.99,
+"descripcion": "mouse gamer",
+"stock": 10
+},
+{
+"id":2,
+"nombre": "teclado",
+"categoria": "periferico",
+"precio": 19.99,
+"descripcion": "teclado gamer",
+"stock": 5
+},
+{
+"id":3,
+"nombre": "monitor",
+"categoria": "periferico",
+"precio": 39.99,
+"descripcion": "monitor gamer",
+"stock": 8
+},
+{
+"id":4,
+"nombre": "bocinas",
+"categoria": "periferico",
+"precio": 59.99,
+"descripcion": "bocinas gamer",
+"stock": 3
+},
+{
+"id":5,
+"nombre": "audifonos",
+"categoria": "periferico",
+"precio": 79.99,
+"descripcion": "audifonos gamer",
+"stock": 2
+}
+]
