@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agregar producto | Mi tienda Zeus</title>
-    <link rel="stylesheet" href="css/estilos.css?v=2">
+    <link rel="stylesheet" href="css/estilos.css?v=5">
   </head>
   <body>
     <aside class="site-header">
@@ -38,11 +38,13 @@
             </div>
             <div class="form-field">
               <label for="precio">Precio</label>
-              <input type="number" id="precio" name="precio" step="0.01" min="0">
+              <input type="number" id="precio" name="precio" step="0.01" min="0.01" max="1000000" aria-describedby="precio-ayuda" required>
+              <small class="form-help" id="precio-ayuda">Obligatorio. Desde $0.01 hasta $1,000,000.</small>
             </div>
             <div class="form-field">
               <label for="stock">Stock</label>
-              <input type="number" id="stock" name="stock" min="0">
+              <input type="number" id="stock" name="stock" min="0" max="10000" step="1" aria-describedby="stock-ayuda" required>
+              <small class="form-help" id="stock-ayuda">Obligatorio. Indica de 0 a 10,000 unidades.</small>
             </div>
             <div class="form-actions">
               <button class="button button--primary" type="submit">Agregar producto</button>

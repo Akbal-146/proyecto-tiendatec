@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mi tienda | Tecnología para ti</title>
-    <link rel="stylesheet" href="css/estilos.css?v=2">
+    <link rel="stylesheet" href="css/estilos.css?v=5">
   </head>
   <body>
     <aside class="site-header">
@@ -12,7 +12,7 @@
         <p class="brand"><a href="index.php">Mi tienda <span>Zeus</span></a></p>
         <nav class="site-nav" aria-label="Navegación principal">
           <ul>
-            <li><a href="index.php">Inicio</a></li>
+            <li><a href="index.php" aria-current="page">Inicio</a></li>
             <li><a href="productos.php">Productos</a></li>
             <li><a href="contacto.php">Contacto</a></li>
           </ul>
